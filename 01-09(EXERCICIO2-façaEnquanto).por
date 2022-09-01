@@ -1,3 +1,14 @@
+/*
+	EXERCICIO 2 - FAÇA ... ENQUANTO
+
+	Faça um programa que pegue um número do teclado e calcule a soma de todos os números  de 1 até ele. 
+	Ex.: o usuário entra 7, o programa vai mostrar 28, pois  1+2+3+4+5+6+7=28.
+
+	Flávia Santana
+
+*/
+
+
 programa
 {
 	
@@ -8,11 +19,12 @@ programa
 		escreva("\nDigite um número para que seja feita a soma: ")
 		leia(numero)
 		faca{
-			resultado = resultado + numero
-			numero = numero-1
+			resultado += numero
+			//escreva("\nA soma de todos os números  de 1 até seu número é: ", resultado) -> MOSTRAR A SOMA PASSO A PASSO
+			numero--
 			}
 			enquanto(numero>=0)
-		escreva("\nA soma de todos os números  de 1 até seu número é: ", resultado)
+		escreva("\nA soma de todos os números é: ", resultado)
 	}
 }
 
@@ -28,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 252; 
+ * @POSICAO-CURSOR = 231; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
