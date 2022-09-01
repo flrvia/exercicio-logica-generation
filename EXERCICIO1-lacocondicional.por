@@ -1,13 +1,12 @@
 programa
 {
-	inclua biblioteca Matematica
-	
+		
 	funcao inicio()
 	{
 		inteiro peso, excesso = 0
 		real multa = 0.0
 
-		escreva("\n\t\tOlá senhor João, bem-vindo ao controle de seu rendimento diário")
+		escreva("\n\t\tOlá, seja bem-vindo(a) ao controle de seu rendimento diário")
 		escreva("\n\nDigite o peso dos tomates: ")
 		leia(peso)
 
@@ -28,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 501; 
+ * @POSICAO-CURSOR = 12; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
