@@ -7,7 +7,7 @@ programa
 		inteiro peso, excesso = 0
 		real multa = 0.0
 
-		escreva("\n\t\tOlá, bem-vindo ao controle de seu rendimento diário!")
+		escreva("\n\t\tOlá senhor João, bem-vindo ao controle de seu rendimento diário")
 		escreva("\n\nDigite o peso dos tomates: ")
 		leia(peso)
 
@@ -28,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 226; 
+ * @POSICAO-CURSOR = 501; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
